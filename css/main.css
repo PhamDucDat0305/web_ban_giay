@@ -118,10 +118,18 @@ body {
   padding: 0;
   outline: none;
   transition: opacity 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .v4_34:hover {
   opacity: 0.8;
+}
+
+.search-icon {
+  width: 20px;
+  height: 20px;
 }
 
 .btn-icon {
